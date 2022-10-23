@@ -187,8 +187,8 @@ default_floating_border pixel 1
 
 #ANSIBLE INSERSIONS BELOW HERE
 # BEGIN ANSIBLE MANAGED BLOCK AUTOLOCK
-exec --no-startup-id xautolock -detectsleep -time 3 -locker "i3lock-fancy-rapid 5 3"
-bindsym Control+Mod1+l exec "i3lock-fancy-rapid 5 3"
+exec xautolock -detectsleep -time 3 -locker "~/bin/i3lock-fancy-rapid 5 3"
+bindsym $mod+Control+l exec "~/bin/i3lock-fancy-rapid 5 3"
 # END ANSIBLE MANAGED BLOCK AUTOLOCK
 # BEGIN ANSIBLE MANAGED BLOCK POLYBAR
 exec --no-startup-id ~/.config/polybar/launch.sh --hack #polybarstartup DO NOT REMOVE COMMENT
