@@ -1,0 +1,30 @@
+- defaults:
+    link:
+        relink: true
+        create: true
+        force: true
+
+- clean: ['~']
+
+- link:
+    # Terminal
+    ~/.zshrc: zshrc
+    ~/.vimrc: vimrc
+    ~/.aliases: aliases
+    ~/.functions: functions
+    ~/.exports: exports
+    ~/.config/nvim: config/nvim
+    ~/.p10k.zsh: p10k.zsh
+    # Application stuff
+    ~/.node-version: node-version
+    ~/.config/lazygit: config/lazygit
+    # Window manager
+    ~/.config/polybar: config/polybar
+    ~/.config/i3: config/i3
+    ~/.config/i3status: config/i3status
+    ~/.config/nitrogen: config/nitrogen
+    ~/.config/polybar: config/polybar
+
+- create:
+    - ~/Projects
+

@@ -1,0 +1,16 @@
+alias ll='ls -la'
+alias cd-='cd -'
+
+alias gs='git status'
+alias gl='git log'
+alias gd='git diff'
+alias gf='git fetch'
+
+alias fp='fzf --preview "bat --style=numbers --color=always --line-range :500 {}"'
+alias fr='find|rg'
+
+alias zshreload='source ~/.zshrc'
+
+rgf(){
+  rg --files | fzf
+}
