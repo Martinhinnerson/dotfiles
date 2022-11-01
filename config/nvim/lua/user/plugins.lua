@@ -83,6 +83,11 @@ return packer.startup(function(use)
         run = function() vim.fn["mkdp#util#install"]() end,
     })
     -- use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+    use {'karb94/neoscroll.nvim'}
+    -- use {
+    --     'declancm/cinnamon.nvim',
+    --     config = function() require('cinnamon').setup() end
+    -- }
 
 
 	-- Colorschemes
