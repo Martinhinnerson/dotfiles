@@ -199,5 +199,5 @@ exec --no-startup-id nitrogen --restore
 # END ANSIBLE MANAGED BLOCK NITROGEN
 # BEGIN ANSIBLE MANAGED BLOCK PICOM
 # Run Picom at startup
-exec --no-startup-id picom --no-vsync --fade-delta=1
+exec --no-startup-id picom --config ~/.config/picom.conf/picom.conf
 # END ANSIBLE MANAGED BLOCK PICOM

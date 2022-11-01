@@ -24,6 +24,7 @@
     ~/.config/i3status: config/i3status
     ~/.config/nitrogen: config/nitrogen
     ~/.config/polybar: config/polybar
+    ~/.config/picom: config/picom
 
 - create:
     - ~/Projects
