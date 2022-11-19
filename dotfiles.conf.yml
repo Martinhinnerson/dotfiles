@@ -10,6 +10,7 @@
     # Terminal
     ~/.zshrc: zshrc
     ~/.vimrc: vimrc
+    ~/.gitconfig: gitconfig
     ~/.aliases: aliases
     ~/.functions: functions
     ~/.exports: exports

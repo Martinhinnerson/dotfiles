@@ -11,6 +11,8 @@ alias fp='fzf --preview "bat --style=numbers --color=always --line-range :500 {}
 alias grep=rg
 alias find='fd'
 alias fr='find|rg'
+alias cat='bat'
+alias k='k --almost-all --human --no-vcs'
 
 alias zshreload='source ~/.zshrc'
 
