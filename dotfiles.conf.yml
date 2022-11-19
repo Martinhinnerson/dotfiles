@@ -18,14 +18,3 @@
     # Application stuff
     ~/.node-version: node-version
     ~/.config/lazygit: config/lazygit
-    # Window manager
-    ~/.config/polybar: config/polybar
-    ~/.config/i3: config/i3
-    ~/.config/i3status: config/i3status
-    ~/.config/nitrogen: config/nitrogen
-    ~/.config/polybar: config/polybar
-    ~/.config/picom: config/picom
-
-- create:
-    - ~/Projects
-

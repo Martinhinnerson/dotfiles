@@ -1,7 +1,6 @@
 lastupdatecheck: 0
 recentrepos:
-- /home/marre/.config/nvim
-- /home/marre/Projects/tig
+- /home/marre/install
 startuppopupversion: 5
 customcommandshistory: []
 hidecommandlog: false

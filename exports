@@ -1,8 +1,5 @@
 export EDITOR=nvim
 export VISUAL=nvim
 
-# fnm
-export PATH=$HOME/.fnm:$PATH
-eval "`fnm env`"
 
 export PATH=$HOME/bin:$PATH

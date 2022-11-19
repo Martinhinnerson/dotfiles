@@ -8,6 +8,8 @@ alias gf='git fetch'
 alias ga='git add -u'
 
 alias fp='fzf --preview "bat --style=numbers --color=always --line-range :500 {}"'
+alias grep=rg
+alias find='fd'
 alias fr='find|rg'
 
 alias zshreload='source ~/.zshrc'
