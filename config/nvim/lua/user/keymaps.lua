@@ -34,21 +34,21 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 -- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
-keymap("n", "<C-PageDown>", ":bnext<CR>", opts)
-keymap("n", "<C-PageUp>", ":bprevious<CR>", opts)
+keymap("n", "<C-PgUp>", ":bprevious<CR>", opts)
+keymap("n", "<C-PgDn>", ":bprevious<CR>", opts)
 
 -- Move text up and down
 keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "<A-k>", "<Esc>:m .-2<CR>==gi", opts)
 
+-- Telescope
 keymap("n", "<C-p>", ":Telescope find_files<CR>", opts)
-keymap("n", "<C-f>", ":Telescope live_grep<CR>", opts)
+keymap("n", "<A-f>", ":Telescope grep_string<CR>", opts)
 
 -- Insert --
 -- Press jk fast to exit insert mode 
--- keymap("i", "jk", "<ESC>", opts)
--- keymap("i", "kj", "<ESC>", opts)
--- keymap("i", "jj", "<ESC>", opts)
+keymap("i", "jk", "<ESC>", opts)
+keymap("i", "kj", "<ESC>", opts)
 
 -- Visual --
 -- Stay in indent mode

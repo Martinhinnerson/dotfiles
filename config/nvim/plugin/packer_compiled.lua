@@ -119,11 +119,6 @@ _G.packer_plugins = {
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["copilot.vim"] = {
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
-  },
   ["darkplus.nvim"] = {
     loaded = true,
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/darkplus.nvim",
@@ -134,11 +129,6 @@ _G.packer_plugins = {
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
-  ["git-blame.nvim"] = {
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/git-blame.nvim",
-    url = "https://github.com/f-person/git-blame.nvim"
-  },
   ["gitsigns.nvim"] = {
     loaded = true,
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
@@ -148,12 +138,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
-  },
-  ["hologram.nvim"] = {
-    config = { "\27LJ\2\nK\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\17auto_display\2\nsetup\rhologram\frequire\0" },
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/hologram.nvim",
-    url = "https://github.com/edluffy/hologram.nvim"
   },
   ["impatient.nvim"] = {
     loaded = true,
@@ -170,11 +154,6 @@ _G.packer_plugins = {
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["markdown-preview.nvim"] = {
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
-    url = "https://github.com/iamcco/markdown-preview.nvim"
-  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -184,16 +163,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["neoscroll.nvim"] = {
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/neoscroll.nvim",
-    url = "https://github.com/karb94/neoscroll.nvim"
-  },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
   },
   ["null-ls.nvim"] = {
     loaded = true,
@@ -209,11 +178,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
-  },
-  ["nvim-colorizer.lua"] = {
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
-    url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -245,11 +209,6 @@ _G.packer_plugins = {
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
-  ["peek.nvim"] = {
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/peek.nvim",
-    url = "https://github.com/toppair/peek.nvim"
-  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/plenary.nvim",
@@ -275,12 +234,6 @@ _G.packer_plugins = {
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
-  ["trouble.nvim"] = {
-    config = { "\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0" },
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/trouble.nvim",
-    url = "https://github.com/folke/trouble.nvim"
-  },
   ["vim-bbye"] = {
     loaded = true,
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/vim-bbye",
@@ -291,11 +244,6 @@ _G.packer_plugins = {
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/vim-illuminate",
     url = "https://github.com/RRethy/vim-illuminate"
   },
-  ["vim-opencl"] = {
-    loaded = true,
-    path = "/home/marre/.local/share/nvim/site/pack/packer/start/vim-opencl",
-    url = "https://github.com/brgmnn/vim-opencl"
-  },
   ["which-key.nvim"] = {
     loaded = true,
     path = "/home/marre/.local/share/nvim/site/pack/packer/start/which-key.nvim",
@@ -304,14 +252,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: hologram.nvim
-time([[Config for hologram.nvim]], true)
-try_loadstring("\27LJ\2\nK\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\17auto_display\2\nsetup\rhologram\frequire\0", "config", "hologram.nvim")
-time([[Config for hologram.nvim]], false)
--- Config for: trouble.nvim
-time([[Config for trouble.nvim]], true)
-try_loadstring("\27LJ\2\n9\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
-time([[Config for trouble.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

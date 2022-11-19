@@ -10,12 +10,17 @@
     # Terminal
     ~/.zshrc: zshrc
     ~/.vimrc: vimrc
+    ~/.config/nvim: config/nvim
     ~/.gitconfig: gitconfig
     ~/.aliases: aliases
     ~/.functions: functions
     ~/.exports: exports
-    ~/.config/nvim: config/nvim
     ~/.p10k.zsh: p10k.zsh
+    # ~/.config/alacritty/alacritty.yml: alacritty.yml
+
     # Application stuff
     ~/.node-version: node-version
     ~/.config/lazygit: config/lazygit
+    ~/.config/Code/User/settings.json: vscode/settings.json
+    #~/.config/Code/User/keybindings.json: vscode/keybindings.json
+    #~/.config/Code/User/snippets: vscode/snippets
