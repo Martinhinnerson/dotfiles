@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Gruvbox Dark Hard",
     "window.menuBarVisibility": "toggle",
     "github.copilot.enable": {
         "*": true,
@@ -11,4 +10,5 @@
     "github.copilot.advanced": {"debug.showScores": true},
     "security.workspace.trust.untrustedFiles": "open",
     "explorer.confirmDragAndDrop": false,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
 }

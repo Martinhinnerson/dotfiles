@@ -84,10 +84,9 @@ plugins=(
 	fzf
 	z
 	sudo
-	npm
 	web-search
-    dirhistory
-    jsontools
+	dirhistory
+	jsontools
 )
 
 source $ZSH/oh-my-zsh.sh
