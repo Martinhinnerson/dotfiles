@@ -82,11 +82,11 @@ plugins=(
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 	fzf
-	z
-	sudo
-	web-search
-	dirhistory
-	jsontools
+	#z
+	#sudo
+	#web-search
+	#dirhistory
+	#jsontools
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -94,7 +94,7 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-[[ -s /home/marre/.autojump/etc/profile.d/autojump.sh ]] && source /home/marre/.autojump/etc/profile.d/autojump.sh
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 autoload -U compinit && compinit -u
 
 # Load Aliases, Functions and Exports

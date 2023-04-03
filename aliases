@@ -7,14 +7,24 @@ alias gd='git diff'
 alias gf='git fetch'
 alias ga='git add -u'
 
-alias fp='fzf --preview "bat --style=numbers --color=always --line-range :500 {}"'
+
 alias grep=rg
 alias find='fd'
-alias fr='find|rg'
 alias cat='bat'
+alias vim="nvim"
+
+alias fr='find|rg'
 alias k='k --almost-all --human --no-vcs'
+alias fp='fzf --preview "bat --style=numbers --color=always --line-range :500 {}"'
 
 alias zshreload='source ~/.zshrc'
+
+alias :w="cowsay 'You are not in vim anymore.'"
+alias :q="cowsay 'You are not in vim anymore.'"
+alias :wq="cowsay 'You are not in vim anymore.'"
+alias :x="cowsay 'You are not in vim anymore.'"
+alias ZZ="cowsay 'You are not in vim anymore.'"
+alias ZQ="cowsay 'You are not in vim anymore.'"
 
 rgf(){
   rg --files | fzf
